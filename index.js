@@ -1,7 +1,4 @@
 
-if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').config()
-}
 import express from 'express';
 import Connection from './database/db.js';
 import dotenv from 'dotenv';
